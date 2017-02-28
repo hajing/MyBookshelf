@@ -8,9 +8,6 @@ header {
     text-align: center;
     color: white;
 }
-/*img {*/
-    /*width: 140px;*/
-/*}*/
 .container {
     display: flex;
     flex-direction: row;
@@ -25,11 +22,15 @@ header {
     flex-basis: 20%;
     margin-top: 20px;
 }
+.book_row img {
+    width: 108px;
+    height: 136px;
+}
 .book_detail {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 10px;
+    margin-left: 6px;
 }
 .star_all {
     background: url(../images/star_background_s.png) no-repeat;
