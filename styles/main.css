@@ -3,10 +3,11 @@
  */
 header {
     width: 100%;
-    height: 28px;
+    height: 30px;
     background-color: #34345c;
     text-align: center;
     color: white;
+    line-height: 30px;
 }
 .container {
     display: flex;
