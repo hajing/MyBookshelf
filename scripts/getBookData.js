@@ -20,8 +20,8 @@ $(function () {
                     + data.alt +'"><img alt="'
                     + data.title +'" src="'
                     + data.images.large + '"/></a><div class="book_detail"><span>书名：'
-                    + data.title + '</span><span>豆瓣评分：' + data.rating.average + '</span><div>星级：<div class="star_all '
-                    + star_num + '"></div></div><span>出版年：' + data.pubdate + '</span><span>出版社：'
+                    + data.title + '</span><span>豆瓣评分：' + data.rating.average + '</span><div>推荐星级：<div class="star_all '
+                    + star_num + '"></div></div><span>出版时间：' + data.pubdate + '</span><span>出版社：'
                     + data.publisher + '</span></div></div>';
                 console.log(html);
                 $(".container").append(html);
