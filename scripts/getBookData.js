@@ -16,7 +16,7 @@ $(function () {
                 }else if (data.rating.average > 9){
                     star_num = "star50";
                 };
-                var html = '<div class="book_row"><a target="_blank" href="'
+                var html = '<div class="book_row"><a target="_blank" title="点击访问豆瓣图书详情" href="'
                     + data.alt +'"><img alt="'
                     + data.title +'" src="'
                     + data.images.large + '"/></a><div class="book_detail"><span>书名：'
